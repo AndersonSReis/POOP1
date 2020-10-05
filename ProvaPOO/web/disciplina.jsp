@@ -12,11 +12,89 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <table border="2">
+        <%@include file="WEB-INF/JSPF/menu.jspf" %>
+        
+        <table border="1">
+            
             <tr>
                 <th>Disciplina</th>
                 <th>Nota</th>
             </tr>
+            
+            <tr>
+                <td>Programação Orientada a Objeto</td>
+                <td>
+                    <input type="double" name="nota">
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td> Inteligencia Artificial</td>
+                <td>
+                    <input type="double" name="nota">                    
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td>Programação Para Dispositivos Móveis</td>
+                <td>
+                     <input type="double" name="nota">
+                </td>
+           
+            </tr>
+            
+            <tr>
+                <td>Inglês IV</td>
+                <td>
+                    <input type="double" name="nota">
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td>Redes de Computadores</td>
+                <td>
+                    <input type="double" name="nota">
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td>Metodologia</td>
+                <td>
+                    <input type="double" name="nota">
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td>Laboratório Engenharia de Software</td>
+                <td>
+                    <input type="double" name="nota">
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td>Gestao de Equipes</td>
+                <td>
+                    <input type="double" name="nota">
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td>Trabalho de Graduação</td>
+                <td>
+                    <input type="double" name="nota">
+                </td>
+            
+            </tr>
+            <td>
+                <input type="submit" name="enviar" value="grava nota">
+            </td>
         </table>
     </body>
 </html>

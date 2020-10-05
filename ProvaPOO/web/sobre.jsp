@@ -15,6 +15,6 @@
         <%@include file="WEB-INF/JSPF/menu.jspf" %>
         <h1>Anderson da Silva Reis</h1>
         <h1>RA : 1290481712040</h1>
-        <h3><a href="https://github.com/AndersonSReis/POOP1.git">GITHUB</a></h3>
+        <h3><a href="https://github.com/AndersonSReis/POOP1.git">GitHub</a></h3>
     </body>
 </html>
