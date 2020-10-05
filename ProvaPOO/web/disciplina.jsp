@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 5 de out de 2020, 10:45:22
+    Document   : disciplina
+    Created on : 5 de out de 2020, 11:04:53
     Author     : ander
 --%>
 
@@ -12,10 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%@include file="WEB-INF/JSPF/menu.jspf" %>
-        <h1>Anderson da Silva Reis</h1>
-        <h1>RA : 1290481712040</h1>
-        <h1>9 Disciplinas</h1>
-        <h1>Falta Chamar Método getList()</h1>
+        <table border="2">
+            <tr>
+                <th>Disciplina</th>
+                <th>Nota</th>
+            </tr>
+        </table>
     </body>
 </html>
